@@ -1,0 +1,13 @@
+{{> menu id="performers"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    Best Actors in Movies(in my expert opinion): 
+  </h2>
+
+  <div class="ui centered cards">
+    {{#each actors}}
+      {{> card}}
+    {{/each}}
+  </div>
+</section>
