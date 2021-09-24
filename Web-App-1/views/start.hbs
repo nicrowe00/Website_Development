@@ -1,0 +1,44 @@
+{{> menu}}
+
+<section class="ui two column grid segment">
+  <div class="ui column">
+    <h2>Welcome to the Movie App!</h2>
+      <p>
+        This app will allow users to create and maintain a collection of films.
+      </p>
+      <div class="buttons">
+        <button class="ui blue button" onclick="showHide()">
+          Read more <i class="arrow circle right icon"></i>
+        </button>
+        <button class="ui green button" onclick="alert('Thanks! Go add some films!')">
+          Like it? <i class="thumbs up icon"></i>
+        </button>
+        <button class="ui red button" onclick="welcomeUser()">
+          Who are you? <i class="user icon"></i>
+        </button>
+      </div>
+
+      <div id="readmore" class="ui message">
+        <p>
+         This app allows users to upload their favourite films so that they can share them with others. Don't be afraid to post, every post is annoymous so don't be afraid of people judging you!
+        </p>  
+      </div>
+      <div id="welcomeuser" class="ui message" onclick="hideWelcome()"> </div>
+  </div>
+  <div class="ui column">
+    <div class="ui grid">
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/4496d7e5-c59d-40be-8890-9c7ea2913ae1%2Fdirector.jpeg?v=1583167580546">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/4496d7e5-c59d-40be-8890-9c7ea2913ae1%2Fchair.jpg?v=1583167652785">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/4496d7e5-c59d-40be-8890-9c7ea2913ae1%2Fcinema-background-with-movie-objects_1823387.jpg?v=1583167868564">
+      </div>
+      <div class="ui eight wide column">
+        <img class="ui small circular image" src="https://cdn.glitch.com/4496d7e5-c59d-40be-8890-9c7ea2913ae1%2FFlash-pointing.jpg?v=1583168301715">
+      </div>
+    </div>
+  </div>
+</section>

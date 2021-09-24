@@ -1,0 +1,33 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    The movie app team: 
+  </h2>
+
+  <div class="ui centered cards">
+    {{#each developers}}
+      {{> aboutcard}}
+    {{/each}}
+  </div>
+  
+  {{#each generals}}
+  <section class="ui segment">
+     <h3>
+       {{title}}
+  </h3>
+  <a href="/general/{{id}}"> View </a>
+  </section>
+  {{/each}}
+  
+<div class="ui left aligned centered aligned segment">
+  <div class="mapouter">
+    
+      <iframe width="1065" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Waterford%20Institute%20of%20Technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+      <a href="https://www.enable-javascript.net/blog/divi-discount/"></a>
+  </div>
+  </div>
+ 
+ <div class="ui right aligned centered" 
+</section>

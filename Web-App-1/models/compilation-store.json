@@ -1,0 +1,58 @@
+{
+  "compilationCollection": [
+    {
+      "id": "01",
+      "title": "Original Star Wars Trilogy",
+      "movies": [
+        {
+          "id": "04",
+          "title": "A New Hope",
+          "director": "George Lucas",
+          "genre": "Sci-Fi/Fantasy",
+          "duration": "2h 5m"
+        },
+        {
+          "id": "05",
+          "title": "The Empire Strikes Back",
+          "director": "Irvin Kershner",
+          "genre": "Sci-Fi/Fantasy",
+          "duration": "2h 7m"
+        },
+        {
+          "id": "37cb9931-3e10-4292-8f83-cde90479337e",
+          "title": "return of the jedi",
+          "director": "eeee",
+          "genre": "eee",
+          "duration": "ee"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "The Lord of the Rings Trilogy",
+      "movies": [
+        {
+          "id": "07",
+          "title": "The Fellowship of the Ring",
+          "director": "Peter Jackson",
+          "genre": "Fantasy",
+          "duration": "3h 28m(extended)"
+        },
+        {
+          "id": "08",
+          "title": "The Two Towers",
+          "director": "Peter Jackson",
+          "genre": "Fantasy",
+          "duration": "3h 43m(extended)"
+        },
+        {
+          "id": "09",
+          "title": "The Return of the King",
+          "director": "Peter Jackson",
+          "genre": "Fantasy",
+          "duration": "4h 11m(extended)"
+        }
+      ]
+    }
+  ]
+}
